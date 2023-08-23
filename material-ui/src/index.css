@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body{
+  background-color: rgb(209, 209, 209);
+}
+#users{
+  background-color: antiquewhite;
+}
+#formik{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.error{
+  color: red;
+}
+div{
+  
+}
+Form{
+  background-color: rgb(216, 216, 216);
+}
+
+
+/* Style for the overlay background */
+#modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for the modal container */
+#modal .modal-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 400px;
+  max-width: 90%;
+  text-align: center;
+}
+
+/* Style for the modal header */
+#modal .modal-header {
+  margin-bottom: 20px;
+}
+
+/* Style for the modal form */
+#modal form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for input fields */
+#modal input,
+#modal select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+#modal input:focus,
+#modal select:focus {
+  border-color: #007bff;
+}
+
+/* Style for checkboxes */
+#modal input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Style for radio buttons */
+#modal input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Style for buttons */
+#modal button {
+  padding: 12px 24px;
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#modal button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for error messages */
+#modal .error {
+  color: red;
+}
+
+/* Style for user display */
+#users {
+  margin-top: 20px;
+}
+
+/* Style for each user block */
+#users div {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for edit button */
+#users div button {
+  margin-top: 10px;
+}
+
+/* Center align text */
+.center {
+  text-align: center;
+}
+.gender{
+  display: flex;
+}
+#btn1{
+ margin-top: 8px;
+
+}
